@@ -1,7 +1,0 @@
-mail.jrotenberg.me IN CNAME privateemail.com.
-MX mx1.privateemail.com.
-TXT v=spf1 include:spf.privateemail.com ~all
-MX mx2.privateemail.com.
-autodiscover.jrotenberg.me IN CNAME privateemail.com.
-autoconfig.jrotenberg.me IN CNAME privateemail.com.
-_autodiscover._tcp.jrotenberg.me IN SRV 0 443 privateemail.com.
