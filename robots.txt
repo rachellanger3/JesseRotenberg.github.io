@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /drafts
 Disallow: /layout
 Disallow: /posts
+Disallow: /assets
