@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en ">
-<head>
-	<!-- meta-AF, yo -->
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="Jesse Rotenberg's Website" content="Content... remains TBD" />
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-
-	<title>posts</title>
-</head>
-
-<body>
-<p>Posts go here??</p>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-</body>
-
-
+	<head>
+		<!-- meta-AF, yo -->
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="Jesse Rotenberg's Website" content="Content... remains TBD" />
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<title>posts</title>
+	</head>
+	<body>
+		<p>Posts go here??</p>
+		<ul>
+			{% for post in site.posts %}
+				<li>
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</body>
+	<footer class="misc">
+		<div class="stuff">
+			<p><b><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />this work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. use it as you please, so long as my name and this sucker (CC-SA 4.0) stay along for the ride.</b></p>
+			<br>
+			<address>contact <a href="mailto:rotenberg.jesse@gmail.com">Jesse Rotenberg</a></address>
+			<p><i>go <a href="index.html">home</a></i>
+		</div>
+	</footer>
 </html>
