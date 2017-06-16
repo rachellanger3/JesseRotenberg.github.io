@@ -1,9 +1,6 @@
 body {
     margin: 60px auto;
     width: 70%;
-    -moz-column-count:2;
-    -webkit-column-count:2;
-    column-count:2;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -46,9 +43,9 @@ ul.posts li {
 }
 
 img {
-    width:80%;
+    width:70%;
 }
 
 img {
-    height:80%;
+    height:70%;
 }
